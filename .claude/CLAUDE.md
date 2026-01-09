@@ -1,9 +1,13 @@
 - NEVER stage changes or write commits
 - Whenever you summarize what you have done, propose a one-liner commit message that reflects these changes.
-- In all interactions and commit messages, be extremely consice and scraifice grammar for the sake of concision.
+- In all interactions and commit messages, be extremely consice and sacrifice grammar for the sake of concision.
+- Do not add comments that describe the problem-solving process, intermediate reasoning, refactoring history, or newly discovered insights.
+- Comments must describe what the code does or why it exists, not how the solution was found.
+- Do not write comments that reference prior assumptions, changes in understanding, or the evolution of the solution.
+- If a comment does not add value to a future reader of the codebase, do not write it.
+- Treat the code as final production code. Remove or avoid any comments that would only be useful during solution exploration.
 - Prefer pure functions, simple data objects and composition over classes and inheritence
 - Write code that flows naturally and makes sense to humans first.
-- Only add comments and function documentation if the code does not explain itself.
 - Before you rework code, make sure automated tests for the happy path and obvious error paths are in place.
 
 # Python-specific instructions
