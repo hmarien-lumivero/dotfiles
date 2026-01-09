@@ -1,3 +1,5 @@
+# General
+
 - NEVER stage changes or write commits
 - Whenever you summarize what you have done, propose a one-liner commit message that reflects these changes.
 - In all interactions and commit messages, be extremely consice and sacrifice grammar for the sake of concision.
